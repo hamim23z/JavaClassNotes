@@ -1,0 +1,39 @@
+Each class we create becomes a new type that can be used to declare variables and create objects
+We can declare new classes as needed
+
+Instance variables are variables that belong to an object (or instance) of a class. They are declared 
+inside a class but outside any method, constructor, or block. Each object of the class gets its own copy 
+of the instance variables.
+
+
+**Access Modifiers**
+    Instance variables dec are preceded with private, which is an access modifier
+    Private means they're accessible to methods of the class in which they're declared only. This is known as 
+    information hiding
+
+
+**Variables**
+    Variables declared in the body of a particular method are local variables and can only be
+    used in that method only. 
+
+
+**Null**
+    This is the default initial value for String variables
+    Local variables aren't automatically initialized
+
+
+**Primitive Types v Reference Types**
+    Primitive types are boolean, byte, char, short, int, long, float, and double. 
+    All other types are reference types such as classes
+    Primitive types can store exactly one value of its declared type at a time
+    Variables of type byte, char, short, int, long, float, and double are initialized to 0
+    Variables of type boolean are initialized to false
+
+    Reference type variables store location of the object in the computer's memory
+    Reference type variables are initilized to null by default
+
+
+**Constructors**
+    Java requires a constructor call for every object that's created
+    Constructors can specify parameters but not return types
+    If a class doesnt define constructors, the compiler provides a default constructor with no parameters so its default

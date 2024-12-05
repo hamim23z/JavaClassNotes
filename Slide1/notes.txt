@@ -1,0 +1,40 @@
+**For Data Heirarchy**
+    The order is
+    - Bits/Characters
+    - Fields
+    - Records
+    - Files
+    - Database
+
+
+**Machine Language**
+    Compressed down to 0s and 1s
+
+
+**Assembly Language**
+    English like abbreviations. 
+
+
+**High Level Language**
+    Single statements that can accomplish large tasks. 
+    Compilers convert high level language to machine language.
+    Interpreters execute the high level language directly. 
+
+
+**Classes v Objects**
+    A class is a blueprint or template used to create objects.
+    An object is an instance of a class. It is created from a class and represents a specific implementation of that class.
+
+
+**Methods**
+    It houses the program statements that actually perform its tasks. In order to perform a task, we need a method. 
+    Methods are blocks of reusable code within a class that perform specific actions.
+
+
+**Instance Variables**
+    An object has attributes. 
+    Attributes are specified by the class's instance variables. 
+
+
+**Typical Java Development Environment**
+    Edit, Compile, Load, Verify, Execute

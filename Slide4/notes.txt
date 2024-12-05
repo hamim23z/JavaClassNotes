@@ -1,0 +1,26 @@
+**Conditional and Ternary Operators**
+    This is the shorthand for if .. else statements
+
+    - System.out.println(studentGrade >=60 ? "Passed" : "Failed");
+
+    If the student grade is in fact greater than or equal to 60, it will print out Passed. If it
+    is not, then it will print out Failed
+
+
+**Local Variables in Method Main**
+    Variables declared in a method body are local variables and can be used only from the line
+    of declaration to the closing right brace of the declaration
+    Declaration must appear before the variable is used in that method
+    Cannot be accessed outside the method
+
+
+**Increment v Decrement**
+    ++ adds one
+    -- subtracts one
+
+    If it's placed before, then its a prefix inc or dec. And after is postfix inc or dec
+
+    If we do ++a or --a then it means that we increment/decrement by 1, then use the new value
+    of a in the expression where a resides in. 
+    If we do a++ or a--, then it means we use the current value of a in the expression in which
+    a resides in, then we increment/decrement by 1. 

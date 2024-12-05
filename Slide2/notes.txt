@@ -1,0 +1,68 @@
+**Java Comments**
+    A single comment is started off with //
+    A multiline comment is started off with /* and ended with */
+
+
+**Using Blank Lines**
+    Good for making programs easier to read
+    Whitespace is ignored by the compiler. 
+
+
+**Declaring a Class**
+    - public class class_name
+
+    Every Java program has at least one class that we define
+    We need the class keyword before the class name always
+    A public class must be placed in a file that has a file name of the form class_name.java
+
+
+**Names and Identifiers**
+    Classes begin with a capital letter and we capitalize the first letter of each word (if it has multiple)
+    A class name is an identifier
+    Java is case sensitive
+
+
+**Declaring a Method**
+    - public static void main(String[] args)
+
+    This is the starting point of every Java application
+    Parenthesis after the identifier main means its a program building block called a method
+    Java class declarations normally contain one or more methods
+
+
+**Java Output**
+    To give output to the console, we use 
+    - System.out.println(Something in here)
+    
+    Most statements end with a semicolon in Java, not just the output by the way
+
+
+**Java Input**
+    - import java.util.Scanner;
+    - Scanner input = new Scanner(System.in);
+    - int number1;
+    - System.out.print("Enter first number: ")
+    - number1 = input.nextInt(); //reads first integer from the user
+
+
+**Escape Sequences**
+    New line characters can be used by using System.out.println. When we use System.out.print it keeps it on the same line. 
+    We can also use the default \n for it
+
+    Backslash \ and tab \t are two more common ones
+
+
+**Displaying Text with printf**
+    - System.out.printf 
+
+    This means that the output will be formatted
+    %s is a placeholder for a string
+    %d is a placeholder for a decimal integer
+
+    - System.out.printf(%s%n%s%n, "Welcome to", "Java Programming!");
+
+
+**Arithmetic Precedence**
+    Multiplication, division, and remainder is first
+    Addition and subtraction is second
+    Assignment is last
